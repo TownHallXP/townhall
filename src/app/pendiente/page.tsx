@@ -88,7 +88,7 @@ export default function Pendiente() {
             Tu cuenta está en revisión
           </h1>
           <p className="text-[#6b6356] text-sm leading-relaxed mb-4">
-            Para completar tu registro, acude en persona a uno de los colectivos de validación. Lleva tu <strong className="text-[#1a1208]">INE</strong> y un <strong className="text-[#1a1208]">comprobante de domicilio</strong>.
+            Para completar tu registro, acude en persona <strong className="text-[#1a1208]">con tu INE</strong> a uno de los colectivos de validación.
           </p>
           <p className="text-[#6b6356] text-sm leading-relaxed">
             Un validador confirmará tu identidad y te dará acceso al foro.

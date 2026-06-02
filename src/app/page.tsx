@@ -261,7 +261,7 @@ export default function Home() {
                       zIndex: w.z,
                       "--duration": w.dur,
                       "--delay": w.delay,
-                    } as React.CSSProperties}
+                    } as unknown as React.CSSProperties}
                   >
                     <div
                       className="w-8 h-8 rounded-full flex items-center justify-center text-white shrink-0"

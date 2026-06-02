@@ -55,7 +55,7 @@ export default function Home() {
   useEffect(() => {
     (async () => {
       const { data: { session } } = await supabase.auth.getSession();
-      if (session) router.push("/foro");
+      if (session) router.push("/pendiente");
     })();
   }, []);
 
